@@ -13,9 +13,9 @@
 .home {
   width: 100%;
   min-height: 100vh;
-  background-image: url('../home.jpg');
+  background-image: url('../home.png');
   background-repeat: no-repeat;
-  background-size: 700px 450px;
+  background-size: 500px 450px;
   background-position: left 15% top 50%;
   font-size: 25px;
   h1 {
@@ -214,12 +214,13 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  border: 1px solid black;
 
-  image {
+  img {
     width: 250px;
     height: 250px;
-    border: 1px solid black;
+    object-fit: contain;
+    border: 2px solid rgba($color: #000000, $alpha: 0.3);
+    border-radius: 10px;
   }
 }
 
